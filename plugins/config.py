@@ -11,7 +11,7 @@ logging.basicConfig(
 
 class Config(object):
 
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5871010161:AAGBCwtmBq_PzT5_dkuvMtPrLfL84KblgQU")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5931701779:AAHrcZdkQvawZYW3G6vX-n6gKFQyiQDu4RY")
 
     API_ID = int(os.environ.get("API_ID", 27686030))
 
@@ -45,17 +45,19 @@ class Config(object):
 
     DEF_WATER_MARK_FILE = "Use this bot @UploadLinkToFileBot"
 
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://paypola1999:1020304050@cluster0.5vkakg5.mongodb.net/?retryWrites=true&w=majority
+
+")
 
     SESSION_NAME = os.environ.get("SESSION_NAME", "UploadLinkToFileBot")
 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -1001642382009))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -1001511301141))
 
     LOGGER = logging
 
     OWNER_ID = int(os.environ.get("OWNER_ID", "5410723702"))
 
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001511301141")
     
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "UploadLinkToFileBot")
 
